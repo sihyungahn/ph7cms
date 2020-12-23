@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Meet Partner",
+    "slug": "webdate1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f6e9e9ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "port": 59947
+    },
+	 "ios": {
+      "bundleIdentifier": "com.ahnco.meetpartner",
+      "buildNumber": "1.0.0",
+	  "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ahnco.meetpartner",
+      "versionCode": 1,
+	  "permissions": [
+	  "CAMERA",
+	  "READ_EXTERNAL_STORAGE",
+	  "USE_FINGERPRINT",
+	  "VIBRATE"
+	]
+	}
+  }
+}
+ //"config": {
+     //   "googleMobileAdsAppId": "ca-app-pub-xxxxxx"
+     //}
