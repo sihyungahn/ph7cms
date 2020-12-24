@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#f6e9e9ff"
       }
     },
     "web": {
@@ -31,7 +31,10 @@
 	 "ios": {
       "bundleIdentifier": "com.ahnco.meetpartner",
       "buildNumber": "1.0.0",
-	  "supportsTablet": true
+	  "supportsTablet": true,
+	  "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511" // sample id, replace with your own
+      }
     },
     "android": {
       "package": "com.ahnco.meetpartner",
@@ -41,10 +44,10 @@
 	  "READ_EXTERNAL_STORAGE",
 	  "USE_FINGERPRINT",
 	  "VIBRATE"
-	]
+	],
+	  "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713" // sample id, replace with your own
+      }
 	}
   }
 }
- //"config": {
-     //   "googleMobileAdsAppId": "ca-app-pub-xxxxxx"
-     //}
